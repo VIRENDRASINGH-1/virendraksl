@@ -1,9 +1,8 @@
 # Coffee Hut
 
-[![Build Status](https://travis-ci.com/jamie/project-2.svg?branch=master)](https://travis-ci.com/jamie/project-2)
+[![Build Status](https://travis-ci.com/jamie/project.coffeehut.svg?branch=master)](https://travis-ci.com/jamie/projectcoffeehut)
 
-
-### https://project.jamiecoffeehut.com/
+###  https://project.jamiecoffeehut.com/
 ### https://jamiecoffeehut.com/
 <p>
 CoffeeHut is a web based application through which a user can order craft coffee drinks from their local coffee shop, CoffeeHut. Upon navigating to the application the user will be prompted to log in or create an account. Once the user logs in they can create a new order or view any previous orders they’ve placed. When creating a new order, the user can select a drink from the given menu. Each drink may be modified using a list of customizations that are offered. Users may also visit their Profile page to adjust login information and view previous orders. 
@@ -24,8 +23,7 @@ Jamie
 
 <p> Front page, which includes an About Me, along with a confirmation card detailing if you are logged in. This card also displays if the user entered an incorrect email or if the user is not logged in.
 
-![](assets/images/Demo1.png)
-![](public/assets/images/Demo1.png)
+![](https://raw.githubusercontent.com/boxnbeeson/Coffee-Hut/master/public/assets/images/Demo1.png)
 
 <p>Order Screen, where the user may select from the given options. The options are pulled from a MySQL database, and upon adding an item to the cart, the number within the Cart Icon on the Navigation bar is updated to depict the number of items within the cart. Future development would include an Admin only page, where the developer can dynamically add/remove menu items to the Database, which would update the Order Screen to include all options that are held within the MySQL database.
 
@@ -51,5 +49,4 @@ Jamie
 
 ![](assets/images/Demo6.png)
 ![](public/assets/images/Demo6.png)
-
 
