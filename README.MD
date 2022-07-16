@@ -1,156 +1,210 @@
-# Coffee Hut
+# CoffeeHut
 
 [![Build Status](https://travis-ci.com/jamie/project.coffeehut.svg?branch=master)](https://travis-ci.com/jamie/projectcoffeehut)
 
 ###  https://project.jamiecoffeehut.com/
 ### https://jamiecoffeehut.com/
 <p>
-CoffeeHut is a web based application through which a user can order craft coffee drinks from their local coffee shop, CoffeeHut. Upon navigating to the application the user will be prompted to log in or create an account. Once the user logs in they can create a new order or view any previous orders they’ve placed. When creating a new order, the user can select a drink from the given menu. Each drink may be modified using a list of customizations that are offered. Users may also visit their Profile page to adjust login information and view previous orders. 
+
+* CoffeeHut is a web based application through which a user can order craft coffee drinks from their local coffee shop, CoffeeHut. Upon navigating to the application the user will be prompted to log in or create an account. Once the user logs in they can create a new order or view any previous orders they’ve placed. When creating a new order, the user can select a drink from the given menu. Each drink may be modified using a list of customizations that are offered. Users may also visit their Profile page to adjust login information and view previous orders. 
 
 </p>
 
 ## Contributors:
 
 ### Frontend: 
-Jamie
+* Jamie
 <br>
 
 ### Backend:
-Jamie
+* Jamie
 </p>
 
 ## Demo:
 
-<p> Front page, which includes an About Me, along with a confirmation card detailing if you are logged in. This card also displays if the user entered an incorrect email or if the user is not logged in.
+<p> 
+
+* Front page, which includes an About Me, along with a confirmation card detailing if you are logged in. This card also displays if the user entered an incorrect email or if the user is not logged in.
 
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-out;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://cdn.dribbble.com/users/3889620/screenshots/6909862/media/a404a638ceabeb755aa5f25d71666edc.jpg?compress=1&amp;resize=800x600&amp;vertical=top" width="800" height="600">
 
-<p>Order Screen, where the user may select from the given options. The options are pulled from a MySQL database, and upon adding an item to the cart, the number within the Cart Icon on the Navigation bar is updated to depict the number of items within the cart. Future development would include an Admin only page, where the developer can dynamically add/remove menu items to the Database, which would update the Order Screen to include all options that are held within the MySQL database.
+<p>
+
+* Order Screen, where the user may select from the given options. The options are pulled from a MySQL database, and upon adding an item to the cart, the number within the Cart Icon on the Navigation bar is updated to depict the number of items within the cart. Future development would include an Admin only page, where the developer can dynamically add/remove menu items to the Database, which would update the Order Screen to include all options that are held within the MySQL database.
 
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-out;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://img.freepik.com/free-vector/coffee-cafe-menu_1284-3844.jpg?w=740&amp;t=st=1657944567~exp=1657945167~hmac=e60cadf7d25c3291fe369672cbf091d41114b909c80b2d2a2899731ad3bf2b6c" width="740" height="740">
 
+<head>
 
-## The Coffee Hut app 
+## TheCoffee Hut app 
+<head/>
+
+<p>
 
 * I decided to set myself another practice  project. Like before, this project is totally fictional but I’ve approached it as if it were a real project.
-Brief: Design an application for Coffee Hut’ customers to click and collect their hot drink order.
+Brief: Design an application for Coffee Hut’ customers to click and collect their hot drink order.</p>
 
-* In Operation, family is at the heart of everything Coffee Hut does. Looking at new ways to move the company forward, the owner of Coffee Hut wants to launch a click and collect service at her coffee shop. Although footfall is strong, she feels having this option where customers can order ahead of time and collect, will encourage more people to use her local coffee shop over competitors.
+<p>
 
-* The Coffee Hut is a small stall based in the business any of district. The majority of its customers are people travelling to work and offices within the city and the most popular hours are through the morning rush (6am-10am).
+* In Operation, family is at the heart of everything Coffee Hut does. Looking at new ways to move the company forward, the owner of Coffee Hut wants to launch a click and collect service at her coffee shop. Although footfall is strong, she feels having this option where customers can order ahead of time and collect, will encourage more people to use her local coffee shop over competitors.</p>
+ 
+ <p> 
 
-The most important thing for the new app design is the ‘Click and Collect’ feature. I’ve been told by the client that this must be at the feature point of the app so that customers can find it easily.
+* The Coffee Hut is a small stall based in the business any of district. The majority of its customers are people travelling to work and offices within the city and the most popular hours are through the morning rush (6am-10am).</p>
 
+<p>
+
+* The most important thing for the new app design is the ‘Click and Collect’ feature. I’ve been told by the client that this must be at the feature point of the app so that customers can find it easily.</p>
+  
+<h1>
 The client wants the app to:
+</h1>
 
-Allow customers to order drinks.
+<p>
+
+* Allow customers to order drinks.
 Allow customers to see the menu.
 Allow customers to see opening times and location.
 Allow customers to pay via online payment or cash on collection.
 Allow customers to find the opening hours and location of Coffee Hut.
-Be easy to use and work on all devices.
-Interview the client
-It’s vital to get more information from the client so that you can get more insight into their aims of the app and what it is from a business perspective that they hope to achieve.
+Be easy to use and work on all devices.</p>
 
-Questions:
-What are the goals for creating this app?
+<p> 
 
-The goal is to make it easier and more convenient for my customers to order their drinks and in turn increase profit.
+* Interview the client
+It’s vital to get more information from the client so that you can get more insight into their aims of the app and what it is from a business perspective that they hope to achieve.</p>
 
-Why are you creating this app and not just sticking to face to face shop orders?
+<p>
 
-Although walk in business is good, I often get customers who can’t make it in the morning because they are running late and they don’t have time to wait if there’s a queue at the stall. By having an online ordering system, that will hopefully solve that problem, if they can order ahead of time and have their drink ready when they get here.
+* The goal is to make it easier and more convenient for  customers to order their drinks and in turn increase profit.</p>
 
-How will we know that this app is successful?
+<p>
 
-An increase in morning customers ordering via the app and an increase in sales by 3% initially would be great.
+* Although walk in business is good, I often get customers who can’t make it in the morning because they are running late and they don’t have time to wait if there’s a queue at the stall. By having an online ordering system, that will hopefully solve that problem, if they can order ahead of time and have their drink ready when they get here.</p>
 
-Who will be the users of your app?
+<p>
 
-Predominantly office workers who have a morning commute, access to a smartphone and those who would prefer to order online to cut out the wait time. Our customers tend to be more middle aged professionals.
+* An increase in morning customers ordering via the app and an increase in sales by 3% initially.</p>
+<h2>
+The users of app:
+</h2>
+<p>
 
-Why would your customers use this app? What problem will be solved by having this app?
+* Predominantly office workers who have a morning commute, access to a smartphone and those who would prefer to order online to cut out the wait time. Customers tend to be more middle aged professionals.</P>
+<h2>
+Problem will be solved by app:
+</h2>
+<p>
 
-As I said before, customers often skip getting coffee because they don’t have time to wait in a queue. We’re often the victim of our own success because when it is busy at the stall, people who have limited time turn away because of the wait and this means a loss of profit for my business. Having an app will allow customers to order on the go and have their drink ready by the time they reach us. This will discourage them to go to competitors and big coffee chains.
+* Customers often skip getting coffee because they don’t have time to wait in a queue. We’re often the victim of our own success because when it is busy at the stall, people who have limited time turn away because of the wait and this means a loss of profit in business. Having an app will allow customers to order on the go and have their drink ready by the time they reach us. This will discourage them to go to competitors and big coffee chains.</p>
+<p> 
 
-With this information to hand, I can now start researching and thinking about the strategy documentation. First up a persona.
+* With this information to hand, I can now start researching and thinking about the strategy documentation. First up a persona.</p>
+<p>
 
-Persona
-For this project, I thought it would be good practice to create a persona for Coffee Hut. A persona is great for getting to know the type of user that would use the app, as well as their interests and likes/dislikes, technology use etc. Below is the persona I created for the coffee app:
+* Persona
+For this project, I thought it would be good practice to create a persona for Coffee Hut. A persona is great for getting to know the type of user that would use the app, as well as their interests and likes/dislikes, technology use etc. Below is the persona created for the coffee app:</p>
+<p>
 
+* Next need to work out the business and user goals. To help this,use observational research by observing people as they order a coffee on an app. This research middle aged people, who commute into work and enjoy takeaway coffee. They need to be comfortable with using a smartphone and using apps. They will also need to be keen on using an online ordering system, instead of the usual walk in and order method.</p>
+<p>
 
-Next I need to work out the business and user goals. To help me with this, I use observational research by observing people as they order a coffee on an app. Please note due to the current virus situation, I was unable to carry out observational research but here’s what I would have done. I chose to research middle aged people, who commute into work and enjoy takeaway coffee. They need to be comfortable with using a smartphone and using apps. They will also need to be keen on using an online ordering system, instead of the usual walk in and order method.
-
-The research that could be carried out could include observing a selection of users as they commute into work and order a coffee on an app to collect on the way to their place of work. To help me with my research I use an Empathy Map:
-
-
-Here I record what the user can think and feel, see, say, do and hear. I also record their pains and gains when using the app.
+* Record that what the user can think and feel, see, say, do and hear.also record their pains and gains when using the app.</p>
+<h2>
 Business Goals:
-Increase sales through a simple to use click and collect app
+</h2>
+<p>
+
+* Increase sales through a simple to use click and collect app
 Have all of the available drinks online
 Appeal to the morning commuter
-Increase sales by 3% initially
+Increase sales by 3% initially.</p>
+<h2>
 User Goals:
-Fast and convenient order app
+</h2>
+
+*   Fast and convenient order app
 Good selection of drinks, just like the shop menu
-Minimal effort when paying. Pay via the app so that the wait time for a drink is reduced.
-Archetypes:
-Why do they use the product?
-To make it quick, easy and convenient to purchase a coffee and skip the queue.
+Minimal effort when paying. Pay via the app so that the wait time for a drink is reduced.</p>
+<h2>
+Behaviours and environments</h2>
 
-Behaviours and environments?
-Busy morning commute to work. Travelling on public transport or walking on foot.
+* Busy morning commute to work. Travelling on public transport or walking on foot.
+<h2>
+Goals, needs and motivations</h2>
+<p>
 
-Goals, needs and motivations?
-Avoid waiting and queueing by purchasing coffee via the app and collecting with minimal effort.
+* Avoid waiting and queueing by purchasing coffee via the app and collecting with minimal effort.</p>
+<p>
 
-The user is a busy commuter who wants to order a coffee to collect with minimal effort on their way into work.
+* The user is a busy commuter who wants to order a coffee to collect with minimal effort on their way into work.</p>
+<p>
 
-I’m now starting to get a clearer understanding of what it is that the app needs to do and how the experience can be shaped for the user. I find that it’s extremely important that the app is responsive and most importantly performs well on a mobile device, as this seems to be the device of choice for commuters. The UI also needs to be simple and clean with a straightforward user journey. Commuters often have lots of distractions around them. Some may even be stood up, especially if the bus or train is cramped and busy. When using an app to order there needs to be as few steps as possible in order for the user to reach their end goal.
+* Starting to get a clearer understanding of what it is that the app needs to do and how the experience can be shaped for the user. Find that it’s extremely important that the app is responsive and most importantly performs well on a mobile device, as this seems to be the device of choice for commuters. The UI also needs to be simple and clean with a straightforward user journey. Commuters often have lots of distractions around them. Some may even be stood up, especially if the bus or train is cramped and busy. When using an app to order there needs to be as few steps as possible in order for the user to reach their end goal.</p>
+<h2>
+Storyboard:</h2>
 
-Storyboard
-My next task is to storyboard, making sure that I focus on the users actions and environment. Here’s the storyboard I came up with.
+<P>
 
+* Next task is to storyboard, making sure that focus on the users actions and environment. Here’s the storyboard came up with.
+Here focus solely on what the user is doing instead of what the app’s functionality is. That comes later.</P>
+<h2>
+User Journey:</h2>
+<p>
 
-Here I focus solely on what the user is doing instead of what the app’s functionality is. That comes later.
-User Journey
-Next I start to map out the user journey. This provides a great insight into the steps that your app should have. It’s handy to do this before wireframing because you can start understanding what it is that your app should do and how the user is likely to use it. I also map out the users emotions to understand how the user may feel at each point of the journey.
+* Next start to map out the user journey. This provides a great insight into the steps that your app should have. It’s handy to do this before wireframing because you can start understanding what it is that your app should do and how the user is likely to use it. </P>
+<P>
 
-
-My user journey for the Coffee Hut app.
+* User journey for the Coffee Hut app.
 Scenario
-The scenario goes hand in hand with the user journey. This allows me to map out any problems or scenarios that the user may come across when using the app and the suggested solutions to those problems. This is really important as I can take these scenarios and shape the wireframes around them. It’s always a good idea to think of these things before thinking about any app design or functionality.
+The scenario goes hand in hand with the user journey. This allows to map out any problems or scenarios that the user may come across when using the app and the suggested solutions to those problems. This is really important as  can take these scenarios and shape the wireframes around them. It’s always a good idea to think of these things before thinking about any app design or functionality.
+</p>
+<h2>
+Scenario for the Coffee Hut app.</h2>
+<p>
+<h2>
+Wireframing</h2>
+<p>
+
+* Now that have the storyboarding and user journey complete, Can now start to think about how the app can function for the user.</p>
+<h2>
+1. COMPONENTS:</h2>
+   
+* First wireframed some of the components, looking at individual atoms and molecules.
+  
 
 
-My scenario for the Coffee Hut app.
-Wireframing
-Now that I have the storyboarding and user journey complete, I can now start to think about how the app can function for the user.
+* Looking at buttons and nav bar. Here I’m starting to tentatively think about colours and effects.
+* 
+<h2>
+2. LARGE SCREEN:</h2>
+3. <p>
+   
+* Next  moved onto wireframing the landing page and the click and collect page for large screens.
+ Landing page and click & collect wireframes. Large screens.
+When thinking about layout,wanted the click and collect button to be nice and big and take prime position on the page. The client really wants focus on the click and collect feature and to make sure that  customers know where to go, so this is a way of achieving that. Open hours and location was also important to the client.  
+<p>
 
-1. COMPONENTS (Below):
-First I wireframed some of the components, looking at individual atoms and molecules.
+* Make sure that the process of ordering a drink is as simple as it can be with very little steps and inputs to fill in. There is a large ‘Place Order’ button at the bottom of the form.so the form is designed to be easy and clear to use.</p>
+<h2>
+2. MEDIUM SCREEN:</h2>
+   <p>
 
+* Next moved onto wireframing for medium screens. The landing page layout doesn’t differ from large screens but the click and collect form field inputs are now on top of each other. Again the click and collect button is central to the page with open hours and location information prime position.</p>
+  
+<h2>
+1. SMALL SCREEN:</h2>
+   <P>
 
-Looking at buttons and nav bar. Here I’m starting to tentatively think about colours and effects
-2. LARGE SCREEN (Below):
-Next I moved onto wireframing the landing page and the click and collect page for large screens.
+* The final step was wireframing for small screens. Similar to the medium layout, the click and collect form fields for small screens are now stacked on top of each other to avoid it looking cramped. The elements on the landing page are also stacked on top of each other. Again a nice big click and collect button on the landing page so that the user can go to the ordering form with just one single click and the open hours are nice and clear to the user.</p>
+  
 
+<h2>
+Prototyping</h2>
+<p>
 
-Landing page and click & collect wireframes. Large screens.
-When thinking about layout, I wanted the click and collect button to be nice and big and take prime position on the page. The client really wants focus on the click and collect feature and to make sure that her customers know where to go, so this is a way of achieving that. Open hours and location was also important to the client, so I’ve placed these just below the click and collect button on the landing page, so that this information is nice and clear to the user.
-
-On the click and collect page, I’ve made sure that the process of ordering a drink is as simple as it can be with very little steps and inputs to fill in. There is a large ‘Place Order’ button at the bottom of the form. When choosing this layout I had the my persona in mind, thinking about them ordering a drink on a busy commute, so the form is designed to be easy and clear to use.
-
-3. MEDIUM SCREEN (Below):
-Next I moved onto wireframing for medium screens. The landing page layout doesn’t differ from large screens but the click and collect form field inputs are now on top of each other. Again the click and collect button is central to the page with open hours and location information prime position.
-
-
-Landing page and click & collect wireframes. Medium devices.
-4. SMALL SCREEN (Below):
-The final step was wireframing for small screens. Similar to the medium layout, the click and collect form fields for small screens are now stacked on top of each other to avoid it looking cramped. The elements on the landing page are also stacked on top of each other. Again a nice big click and collect button on the landing page so that the user can go to the ordering form with just one single click and the open hours are nice and clear to the user.
-
-
-Prototyping
-Now that I had wireframing done, the next step was to move onto prototyping. As with my previous practice project, for this I used a Low Fidelity prototype on paper. I move onto more High Fidelity prototypes later.
+* When wireframing done, the next step was to move onto prototyping. As with my previous practice project, for this I used a Low Fidelity prototype on paper. I move onto more High Fidelity prototypes later.
+</p>
 
 1. LARGE SCREEN LANDING PAGE (Below):
 This is the landing page prototype for large screens. Keeping to my wireframing layout, I have the click and collect button in the centre overlapping the hero image. I also have the open hours and location below that button, as this is very important to the client. Prototyping allowed me to see how much excess space I had, so within this space, I’ve created a section that promotes the coffee that Coffee Hut uses. I thought this was a nice touch and is a selling point to many coffee lovers.
@@ -219,4 +273,4 @@ Similar to the medium screen design the form fields on the Click & Collect page 
 
 
 Click & Collect, order success and payment screen for small screen
-There are of course more pages to this app but I’ve targeted the most important ones for this demonstration. The next stage for me would be to start coding an interactive prototype in HTML and CSS with working links and buttons, so that I can show the client how functionality works. If you have any further suggestions, please let me know!
+There are of course more pages to this app but targeted the most important ones for this demonstration. The next stage for me would be to start coding an interactive prototype in HTML and CSS with working links and buttons, so that I can show the client how functionality works. If you have any further suggestions, please let me know!
