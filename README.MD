@@ -29,26 +29,22 @@
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-out;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://cdn.dribbble.com/users/3889620/screenshots/6909862/media/a404a638ceabeb755aa5f25d71666edc.jpg?compress=1&amp;resize=800x600&amp;vertical=top" width="800" height="600">
 </center>
 
-<p>
+<head>
 
-* Order Screen, where the user may select from the given options. The options are pulled from a MySQL database, and upon adding an item to the cart, the number within the Cart Icon on the Navigation bar is updated to depict the number of items within the cart. Future development would include an Admin only page, where the developer can dynamically add/remove menu items to the Database, which would update the Order Screen to include all options that are held within the MySQL database.
+* Order Screen, where the user may select from the given options. The options are pulled from a database, and upon adding an item to the cart, the number within the Cart Icon on the Navigation bar is updated to depict the number of items within the cart. Future development would include an Admin only page, where the developer can dynamically add/remove menu items to the Database, which would update the Order Screen to include all options that are held within the database.
+</head>
+
 <center>
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-out;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://img.freepik.com/free-vector/coffee-cafe-menu_1284-3844.jpg?w=740&amp;t=st=1657944567~exp=1657945167~hmac=e60cadf7d25c3291fe369672cbf091d41114b909c80b2d2a2899731ad3bf2b6c" width="740" height="740">
 </center>
 
 <head>
 
-## TheCoffee Hut app 
+## TheCoffee Hut app  
+
 <head/>
 
-<p>
-
-* I decided to set myself another practice  project. Like before, this project is totally fictional but I’ve approached it as if it were a real project.
-Brief: Design an application for Coffee Hut’ customers to click and collect their hot drink order.</p>
-
-<p>
-
-* In Operation, family is at the heart of everything Coffee Hut does. Looking at new ways to move the company forward, the owner of Coffee Hut wants to launch a click and collect service at her coffee shop. Although footfall is strong, she feels having this option where customers can order ahead of time and collect, will encourage more people to use her local coffee shop over competitors.</p>
+* In Operation, the owner of Coffee Hut wants to launch a click and collect service at her coffee shop. Although footfall is strong, she feels having this option where customers can order ahead of time and collect, will encourage more people to use her local coffee shop over competitors.</p>
  
  <p> 
 
@@ -58,9 +54,9 @@ Brief: Design an application for Coffee Hut’ customers to click and collect th
 
 * The most important thing for the new app design is the ‘Click and Collect’ feature. I’ve been told by the client that this must be at the feature point of the app so that customers can find it easily.</p>
   
-<h1>
+<h2>
 The client wants the app to:
-</h1>
+</h2>
 
 <p>
 
