@@ -151,149 +151,39 @@ User Journey:</h2>
 <p>
 
 * Next start to map out the user journey. This provides a great insight into the steps that your app should have. It’s handy to do this before wireframing because you can start understanding what it is that your app should do and how the user is likely to use it. </P>
-<P>
-
-* User journey for the Coffee Hut app.
-Scenario
-The scenario goes hand in hand with the user journey. This allows to map out any problems or scenarios that the user may come across when using the app and the suggested solutions to those problems. This is really important as  can take these scenarios and shape the wireframes around them. It’s always a good idea to think of these things before thinking about any app design or functionality.
-</p>
-<h2>
-Scenario for the Coffee Hut app.</h2>
-<p>
-<h2>
-Wireframing</h2>
-<p>
-
-* Now that have the storyboarding and user journey complete, Can now start to think about how the app can function for the user.</p>
-<h2>
-1. COMPONENTS:</h2>
-   
-* First wireframed some of the components, looking at individual atoms and molecules.
-  
-
-
-* Looking at buttons and nav bar. Here I’m starting to tentatively think about colours and effects.
-* 
-<h2>
-2. LARGE SCREEN:
-   </h2>
-
-   <p>
-   
-* Next  moved onto wireframing the landing page and the click and collect page for large screens.
- Landing page and click & collect wireframes. Large screens.
-When thinking about layout,wanted the click and collect button to be nice and big and take prime position on the page. The client really wants focus on the click and collect feature and to make sure that  customers know where to go, so this is a way of achieving that. Open hours and location was also important to the client.  
-<p>
-
-* Make sure that the process of ordering a drink is as simple as it can be with very little steps and inputs to fill in. There is a large ‘Place Order’ button at the bottom of the form.so the form is designed to be easy and clear to use.</p>
-<h2>
-3. MEDIUM SCREEN:</h2>
-   <p>
-
-* Next moved onto wireframing for medium screens. The landing page layout doesn’t differ from large screens but the click and collect form field inputs are now on top of each other. Again the click and collect button is central to the page with open hours and location information prime position.</p>
-  
-<h2>
-4. SMALL SCREEN:</h2>
-   <P>
-
-* The final step was wireframing for small screens. Similar to the medium layout, the click and collect form fields for small screens are now stacked on top of each other to avoid it looking cramped. The elements on the landing page are also stacked on top of each other. Again a nice big click and collect button on the landing page so that the user can go to the ordering form with just one single click and the open hours are nice and clear to the user.</p>
-  
-
-<h2>
-Prototyping</h2>
-<p>
-
-* When wireframing done, the next step was to move onto prototyping. As with my previous practice project, for this I used a Low Fidelity prototype on paper. I move onto more High Fidelity prototypes later.
-</p>
-<p>
-
-<h2>
-1. LARGE SCREEN LANDING PAGE (Below):</h2>
-   
- <p>  
-  
-* This is the landing page prototype for large screens. Keeping to wireframing layout, have the click and collect button in the centre overlapping the hero image. also have the open hours and location below that button, as this is very important to the client. Prototyping allowed me to see how much excess space had, so within this space, Have created a section that promotes the coffee that Coffee Hut uses. Thought of this was a nice touch and is a selling point to many coffee lovers.</p>
-
-<h2>
-1. LARGE SCREEN CLICK & COLLECT (Below):</h2>
-
-<p>
-
-* Here is the prototype for the ‘Click & Collect’ page. Here  have a heading stating ‘Click & Collect’ and have a very simple order form. Have kept it as simple as possible, as don’t want users to be overwhelmed which could result in them abandoning the user journey.</p>
-
-<h2>
-3. LARGE SCREEN ORDER SUCCESS (Below):</h2>
-   <p>
-
-* Thought it would be good to prototype how the order success screen of the click and collect order will look. Here  have kept it very simple for the user, stating their order number, chosen collection time and the address of Coffee Hut with a map, so that they know where to go. Here have thought about new Coffee Hut customers who may not be entirely sure where to go.</p>
-
-<h2>
-4. MEDIUM SCREEN LANDING PAGE & ‘CLICK & COLLECT’ (Below):</h2>
-<p>
-
-* Medium screen prototype is similar to large screen particularly on the landing page. However, on the ‘Click & Collect’ page the field inputs are now stacked as putting them side by side would make the UI look cramped.</p>
-
-<h2>
-5. SMALL SCREEN LANDING PAGE (Below):</h2>
-<p>
-
-* Next, move onto small screens. Here have kept the content the same but it’s now stacked on top of each other to avoid it looking cramped. Have also replaced the nav bar with a burger menu, you can see how it looks when clicked on below.</p>
-
-<h2>
-6. SMALL SCREEN CLICK & COLLECT (Below):</h2>
-<p>
-
-* Again for the ‘Click & Collect’ page have stacked the form fields on top of each other. Putting them side by side would have made the UI looked cramped and want to keep enough white space to make it look easy on the eye for the user. There is still a big ‘Place Order’ button at the bottom.</p>
-
-<h2>
-7. SMALL SCREEN ORDER SUCCESS (Below):</h2>
-<p>
-
-* With the same content as large screen but for smaller screens, the map is at the bottom of the element instead of at the side. There is also a ‘Home’ button to take them back to the landing page if the user wishes.</p>
-
-
-<h2>
-8. SMALL SCREEN BURGER MENU (Below):</h2>
-<p>
-
-* In this prototype map out what the burger menu will look like when the user clicks on it. Just a nice simple drop down menu with the three items. The menu is at the top as this takes priority.</p>
-
-<h2>
-9. Small screen burger menu:</h2>
-<p>
-
-* After prototyping on paper, decided to look at more digital designs and how  see the app being developed moving forward. Below are my digital designs have made for the Coffee Hut app.</p>
-
+ 
 <h2>
 LARGE SCREEN LANDING PAGE (Below)</h2>
 <p>
 
 * Here have made the click and collect button the centre piece. On the button there is an arrow icon indicating to the user that clicking this will take you elsewhere. Following the clients requests, the open hours and location are all visible. On the navigation bar, have put the menu item first so that it’s easy to locate, should the user need this. have gone for a large hero image which stays throughout the site and on the image have included a quote that symbolises the pride that Coffee Hut has for operating for so long. have kept to the brand colours that Coffee Hut use - Blue, Black and White.>/p
+  <center<img alt="" class="cf ob oc" src="https://miro.medium.com/max/1400/1*Un8k7BN3q-gjznpQQXzorg.png" width="700" height="409" loading="lazy" role="presentation">></center>
 
 <h2>
 LARGE SCREEN CLICK & COLLECT (Below)</h2>
 <p>
 
 * The ‘Click & Collect’ page sticks to the brand colours. have kept the form short and easy to understand with very few fields to fill in, keeping the user journey nice and short. Since the paper prototypes, added in a running ‘Total To Pay’, as realised the user had no way of knowing the total of what they were paying. The second design is what the user will see upon completing payment. This is a confirmation with an order number, the time of collection and the address. There is also a convenient map that the user can click on. have decided to put this within a box with a lighter blue background to make it stand out to the user. There is also a ‘Home’ button to take the user back to the home page if they wish.</p>
+  <center><img alt="" class="cf ob oc" src="https://miro.medium.com/max/1400/1*WsuClFzdD6BsmAiTrFtApg.png" width="700" height="462" loading="lazy" role="presentation"></center>
 
 <h2>
 MEDIUM SCREEN LANDING PAGE AND CLICK AND COLLECT (Below)</h2>
 <p>
 
 * Below is how the app will look on a medium screen. The landing page layout is pretty much the same and the ‘Coffee’ section sits at the bottom. The Click & Collect page is still easy to interpret with minimal fields to fill out. The only difference being the form fields are now stacked on top of one another.</p>
-
+<center><img alt="" class="cf ob oc" src="https://miro.medium.com/max/1400/1*9Z1gzMqf5S4QPlFMSsriLw.png" width="700" height="468" loading="lazy" role="presentation"></center>
 <h2>
 SMALL SCREEN LANDING PAGE AND BURGER MENU (Below):</h2>
 <p>
 
 * The landing page for small screen has the same content only stacked on top of each other to utilise the space. have put the open hours at the top as this is important to the client. The second design shows how the burger menu will expand when the user clicks on it. Again, have put the menu as the first item as this is generally what the user looks at first when looking at a dropdown menu.</p>
-
+<center><img alt="" class="cf ob oc" src="https://miro.medium.com/max/1400/1*dsGHRBlzvWhvQ94TQf0x5A.png" width="700" height="549" loading="lazy" role="presentation"></center>
 <h2>
 SMALL SCREEN CLICK & COLLECT AND PAYMENT SCREEN (Below):</h2>
 <p>
 
 * Similar to the medium screen design the form fields on the Click & Collect page are now on top of each other as putting them side by side would make the UI seem very cramped. The second design shows the order success page. Again with this design, have put the contents in a box with a lighter blue background to make it stand out to the user. The third design shows what the payment screen could look like if the user pays via Apple Pay.</p>
-
+<center><img alt="" class="cf ob oc" src="https://miro.medium.com/max/1400/1*JfZ2Fdmwc3y4Qll63voJvw.png" width="700" height="455" loading="lazy" role="presentation"></center>
 <p>
 
 * Click & Collect, order success and payment screen for small screen
