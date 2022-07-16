@@ -23,12 +23,11 @@ Jamie
 
 <p> Front page, which includes an About Me, along with a confirmation card detailing if you are logged in. This card also displays if the user entered an incorrect email or if the user is not logged in.
 
-![](https://raw.githubusercontent.com/boxnbeeson/Coffee-Hut/master/public/assets/images/Demo1.png)
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-out;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://cdn.dribbble.com/users/3889620/screenshots/6909862/media/a404a638ceabeb755aa5f25d71666edc.jpg?compress=1&amp;resize=800x600&amp;vertical=top" width="800" height="600">
 
 <p>Order Screen, where the user may select from the given options. The options are pulled from a MySQL database, and upon adding an item to the cart, the number within the Cart Icon on the Navigation bar is updated to depict the number of items within the cart. Future development would include an Admin only page, where the developer can dynamically add/remove menu items to the Database, which would update the Order Screen to include all options that are held within the MySQL database.
 
-![](assets/images/Demo2.png)
-![](public/assets/images/Demo2.png)
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-out;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://img.freepik.com/free-vector/coffee-cafe-menu_1284-3844.jpg?w=740&amp;t=st=1657944567~exp=1657945167~hmac=e60cadf7d25c3291fe369672cbf091d41114b909c80b2d2a2899731ad3bf2b6c" width="740" height="740">
 
 <p>The card below shows options the user may pick from to customize their drink. The card is a modal the overlays the interface. Upon clicking the "Add Drink to Order" button, the item will be added to the Cart and the modal will close. When the modal closes, the order cart modal will open on the right side of the screen, as is shown in the next image.
 
@@ -50,3 +49,4 @@ Jamie
 ![](assets/images/Demo6.png)
 ![](public/assets/images/Demo6.png)
 
+<img alt="" class="hCL kVc L4E MIw" importance="auto" loading="auto" src="https://i.pinimg.com/564x/fb/e0/a9/fbe0a9273d4eb6a4b32bf7858279cb5b.jpg">
