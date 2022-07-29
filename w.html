@@ -1,0 +1,1346 @@
+<html>
+
+<head>
+  <title>WakeCup</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<style>
+    * {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Libre Bodoni", "sans-serif";
+  min-height: 100vh;
+  /* max-width: 1280px; */
+  background-color: #ffffff;
+  /* margin: 0 auto; */
+}
+
+/* *index page* */
+
+.page-container {
+  margin-bottom: 30px;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(242, 237, 214);
+  flex-direction: row;
+  justify-content: space-between;
+  /* height: 130px; */
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img {
+  width: 190px;
+  height: 130px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  color: rgb(15, 9, 1);
+  padding: 22px 40px;
+  background-color: rgb(242, 237, 214);
+}
+
+nav ul li:hover {
+  background-color: darksalmon;
+}
+
+nav ul li.active {
+  background-color: darksalmon;
+}
+
+nav ul li a {
+  color: rgb(115, 50, 3);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media all and (max-width: 800px) {
+  nav {
+    justify-content: flex-start;
+  }
+
+  nav ul {
+    justify-content: space-between;
+  }
+}
+
+@media all and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  nav ul li {
+    text-align: center;
+  }
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 600px;
+  background-color: antiquewhite;
+  /* margin: 20px; */
+}
+
+@media all and (max-width: 600px) {
+  .banner {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .banner {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .banner {
+    flex-direction: column;
+  }
+}
+
+.left {
+  flex: 50%;
+  background-image: url(images/OurCafe-612x612.jpg);
+  display: inline-block;
+  opacity: 0.4;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right {
+  flex: 50%;
+  background-image: url(images/Source.jpg);
+  display: inline-block;
+  opacity: 0.5;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner .left a,
+.banner .right a {
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  justify-self: center;
+  color: white;
+  font-size: 90px;
+  font-weight: 200px;
+  text-shadow: 50px;
+  animation: appear 1s ease-in-out 0s forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    top: -100px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+.banner .left,
+.banner .right {
+  flex: 1;
+  justify-self: center;
+  color: white;
+  font-size: 90px;
+  font-weight: 200px;
+  text-shadow: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.banner .left:hover,
+.banner .right:hover {
+  transform: scale(0.9, 0.9);
+  opacity: 0.7;
+}
+
+@media all and (max-width: 600px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .footer {
+    position: fixed;
+  }
+}
+
+.homemainpage {
+  overflow: auto;
+  background-color: rgb(246, 246, 239);
+}
+
+.text {
+  margin: 20px 40px 90px 40px;
+}
+
+.text p {
+  color: brown;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(249, 237, 237);
+  padding: 40px 40px;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+/* *index page* */
+
+/* *source* */
+
+div .mainpage {
+  overflow: auto;
+  background-color: rgb(246, 246, 239);
+}
+
+.source {
+  border-bottom: rgb(115, 50, 3) solid 2px;
+  color: brown;
+  font-size: 20px;
+  font-weight: 40px;
+  padding-left: 10px;
+}
+
+.image img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  border: rgb(15, 9, 1) solid 1px;
+}
+
+.lines {
+  margin: 30px 30px 20px;
+}
+.lines p {
+  border: rgb(115, 50, 3) solid 1px;
+  background-color: rgb(254, 248, 241);
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px 30px 70px;
+}
+
+.box .src1,
+.box .src2,
+.box .src3 {
+  border: rgb(115, 50, 3) solid 1px;
+  padding: 2px;
+  margin: 10px 30px;
+  animation: appear 1s ease-in-out 0s forwards;
+}
+
+.box .src1 {
+  background-image: url(images/src1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.box .src2 {
+  background-image: url(images/src2.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.box .src3 {
+  background-image: url(images/src3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.box .src1 p,
+.box .src1 h2 {
+  color: whitesmoke;
+  font-weight: 30px;
+  font-weight: bold;
+}
+
+.box .src2 p,
+.box .src2 h2 {
+  color: whitesmoke;
+  font-weight: 30px;
+  font-weight: bold;
+}
+
+.box .src3 p,
+.box .src3 h2 {
+  color: whitesmoke;
+  font-weight: 30px;
+  font-weight: bold;
+}
+
+.box .src1:hover,
+.box .src2:hover,
+.box .src3:hover {
+  opacity: 1;
+  transform: scale(0.9, 0.9);
+}
+
+/* *source* */
+
+/* *our cafes* */
+.cafeimage img {
+  object-fit: contain;
+  border: rgb(15, 9, 1) solid 1px;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+@media all and (max-width: 600px) {
+  .flexcontainer {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .flexcontainer {
+    flex-direction: column;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: 300px;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgb(250, 234, 234);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.2, 1.2);
+  background-color: rgb(240, 200, 200);
+}
+
+.card h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: darkgreen;
+  border-bottom: brown 4px solid;
+}
+
+.addr {
+  padding: 2px 16px;
+  text-align: center;
+  font-size: 20px;
+  color: indianred;
+}
+
+/* *our cafes* */
+
+/* *about us* */
+
+div .mainabpage {
+  background-color: rgb(246, 246, 239);
+  overflow: auto;
+}
+
+.aboutcontainer {
+  position: relative;
+  text-align: center;
+}
+
+.aboutcontainer img {
+  object-fit: cover;
+  width: 100%;
+  min-height: 500px;
+  opacity: 0.7;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered b {
+  color: #141212;
+  font-weight: 80px;
+  font-size: 40px;
+  font-style: italic;
+  text-shadow: 2px 2px gray;
+  position: relative;
+  animation: appear 1s ease-in-out 0s forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    top: -100px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.centered b::before {
+  color: #141212;
+  content: open-quote;
+  top: 0;
+  left: 0;
+}
+
+.centered b::after {
+  color: #141212;
+  content: close-quote;
+  bottom: 0;
+  right: 0;
+}
+
+.bodyabouttext {
+  background-color: rgb(229, 243, 246);
+  box-sizing: border-box;
+  border: #02143b 1px solid;
+  margin: 20px 50px 80px;
+  padding: 10px;
+  min-height: 350px;
+}
+
+.bodyabouttext div {
+  padding: 10px;
+  margin: 10px 20px;
+  font-size: 20px;
+  color: #02143b;
+  background-color: rgb(229, 243, 246);
+}
+
+/* *about us* */
+
+/* * Brewing Equipment* */
+
+.brewimage img {
+  object-fit: contain;
+  border: rgb(15, 9, 1) solid 1px;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.brewtext h2 {
+  color: rgb(115, 50, 3);
+  padding-left: 20px;
+}
+
+.brewtext p {
+  color: rgb(32, 14, 1);
+  font-size: 20px;
+  font-weight: 50px;
+  padding-left: 20px;
+}
+
+.brewflexcontainer {
+  display: grid;
+  align-content: space-evenly;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 95%;
+  gap: 10px;
+  background-color: rgb(234, 226, 226);
+  padding: 20px 20px;
+  margin: 10px 10px 80px;
+}
+
+.brewflexcontainer .brew {
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+
+.brewcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: left;
+  background-color: rgb(245, 225, 225);
+}
+
+.brewcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(0.9, 0.9);
+  background-color: rgb(240, 200, 200);
+}
+
+.brewcard img {
+  width: 100%;
+}
+
+.brewcard h3 {
+  color: brown;
+  padding: 10px;
+}
+
+.brewcard p {
+  color: rgba(171, 34, 34, 0.856);
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.brewcard .brewbtn {
+  margin: 10px;
+}
+
+.brewcard .brewbtn button {
+  border: none;
+  width: 150px;
+  height: 60px;
+  background-color: rgb(135, 65, 65);
+  color: #1b0101;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.brewcard button:hover {
+  opacity: 0.7;
+}
+
+.brewcard .brewbtn span {
+  font-size: 25px;
+  font-weight: 20px;
+  padding-left: 10px;
+}
+
+/* * Brewing Equipment* */
+
+/* * Learn with us* */
+.learnimage img {
+  object-fit: contain;
+  border: rgb(15, 9, 1) solid 1px;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.learnheadline {
+  color: brown;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px;
+  margin: 10px 80px;
+  background-color: rgb(249, 237, 237);
+}
+
+.wrkshop {
+  margin: 10px 10px 80px;
+  overflow: auto;
+}
+
+.wrkshop h1 {
+  color: #740420;
+  font-weight: bold;
+  font-size: 45px;
+  border-bottom: #2b010c 5px solid;
+  padding: 20px 20px;
+  margin: 10px 30px;
+}
+
+.wrkheading {
+  padding: 20px;
+  margin: 20px 60px;
+  border: #2b010c 1px solid;
+}
+
+.wrkheading h2 {
+  padding: 5px;
+  font-size: 40px;
+  color: darkgreen;
+  border-bottom: brown 4px solid;
+}
+
+.wrkheading p {
+  font-size: 30px;
+  font-weight: 30px;
+  color: darkblue;
+}
+
+.wrkheading span {
+  font-size: 30px;
+  font-weight: 30px;
+  color: rgb(125, 22, 4);
+}
+
+.wrkheading button {
+  border: none;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(240, 205, 205);
+  color: #380101;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.wrkheading button:hover {
+  opacity: 0.6;
+}
+
+/* * Learn with us* */
+
+/* * Contact* */
+
+.contactcontainer img {
+  object-fit: cover;
+  border: rgb(15, 9, 1) solid 1px;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.formheading {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #333f5a;
+  text-shadow: 2px 2px#55acee;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+.contactform {
+  border-radius: 5px;
+  background-color: #dfeff4;
+  padding: 30px;
+  margin: 10px 20px 80px 30px;
+  border: #02143b solid 1px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="radio"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  background-color: #333f5a;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 12px 20px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #aebadb;
+}
+
+/* * Contact* */
+
+/* * Coffee Blends * */
+.coffeeblend img {
+  object-fit: cover;
+  border: rgb(15, 9, 1) solid 1px;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.blendheader {
+  background-color: antiquewhite;
+  color: #380101;
+  padding: 30px;
+  margin: 20px 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.blendcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* margin-bottom: 30px; */
+  margin: 20px 50px 80px;
+}
+
+.blendtitle {
+  border: rgb(49, 14, 14) 2px solid;
+  background-color: rgb(243, 224, 224);
+  align-items: center;
+  text-align: center;
+  margin: 10px 20px;
+}
+
+.item1,
+.item2 {
+  flex: 1;
+}
+
+.item1 h1,
+.item2 h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: darkgreen;
+  border-bottom: brown 4px solid;
+}
+
+.item1:hover,
+.item2:hover {
+  transform: scale(1, 1.1);
+  background-color: rgb(240, 200, 200);
+}
+
+.item1 a button,
+.item2 a button {
+  color: white;
+  background-color: rgb(174, 121, 121);
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 80px;
+  width: auto;
+  align-items: center;
+  margin: 10px 30px 10px;
+  cursor: pointer;
+}
+
+.item1 a button:hover,
+.item2 a button:hover {
+  transform: scale(1.2, 1.2);
+  background-color: rgb(249, 119, 119);
+}
+
+@media all and (max-width: 500px) {
+  .blendcontainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px 0px 80px;
+    padding: 0px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .blendcontainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 0px 80px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .blendcontainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 0px 80px;
+  }
+}
+/* * Coffee Blends * */
+
+/* * classics * */
+
+.classiccontainer {
+  display: grid;
+  align-content: space-evenly;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 95%;
+  gap: 10px;
+  background-color: rgb(234, 226, 226);
+  padding: 10px;
+  margin: 20px 30px 90px;
+}
+
+.classiccontainer .classic {
+  /* background-color: rgb(238, 187, 187); */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.clcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: left;
+  background-color: rgb(245, 225, 225);
+}
+
+.clcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(0.9, 0.9);
+  background-color: rgb(240, 200, 200);
+}
+
+.clcard img {
+  width: 100%;
+}
+
+.clcard h3 {
+  color: rgb(2, 57, 2);
+  padding: 20px;
+}
+
+.clcard p {
+  color: rgba(171, 34, 34, 0.856);
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 2px;
+}
+
+.clcard .clbtn {
+  margin: 10px;
+}
+
+.clcard .clbtn button {
+  border: none;
+  width: 150px;
+  height: 60px;
+  background-color: rgb(136, 97, 97);
+  color: #1b0101;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.clbtn button:hover {
+  opacity: 0.7;
+}
+
+.clcard .clbtn span {
+  font-size: 25px;
+  font-weight: 20px;
+  padding-left: 10px;
+}
+
+/* * classics * */
+
+/* * Unique Blends * */
+.uniquecontainer {
+  display: grid;
+  align-content: space-evenly;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 95%;
+  gap: 10px;
+  background-color: rgb(234, 226, 226);
+  padding: 10px;
+  margin: 20px 30px 90px;
+}
+
+.uniquecontainer .unique {
+  /* background-color: rgb(238, 187, 187); */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.uncard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: left;
+  background-color: rgb(245, 225, 225);
+}
+
+.uncard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(0.9, 0.9);
+  background-color: rgb(240, 200, 200);
+}
+
+.uncard img {
+  width: 100%;
+}
+
+.uncard h3 {
+  color: rgb(2, 73, 2);
+  padding: 10px;
+}
+
+.uncard p {
+  color: rgba(171, 34, 34, 0.856);
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.uncard .unbtn {
+  margin: 10px;
+}
+
+.uncard .unbtn button {
+  border: none;
+  width: 150px;
+  height: 60px;
+  background-color: rgb(136, 97, 97);
+  color: #1b0101;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.unbtn button:hover {
+  opacity: 0.7;
+}
+
+.uncard .unbtn span {
+  font-size: 25px;
+  font-weight: 20px;
+  padding-left: 10px;
+}
+
+/* * Unique Blends * */
+
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(242, 237, 214);
+  padding: 10px 20px;
+  color: rgb(115, 50, 3);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer div {
+  float: right;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+</style>
+
+<body>
+    <div class="page-container">
+      <div class="nav">
+        <nav>
+          <div class="logo">
+            <img src="images/WakeCup_500x500.png" alt="WakeCup Logo" />
+          </div>
+  
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="coffee_blends.html">Coffee Blends</a></li>
+            <li><a href="brewing_equipment.html">Brewing Equipment</a></li>
+            <li><a href="learn.html">Learn with us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+    </div>
+    <div class="homemainpage">
+      <div class="banner">
+        <div class="left">
+          <a href="our_cafe.html">Our Cafes</a>
+        </div>
+        <div class="right">
+          <a href="source.html">The Source</a>
+        </div>
+      </div>
+
+      <div class="text">
+        <p>
+          WakeCup isn’t just a call to rise and win, it is our mission to tap
+          into the finest plantations and estates for the greatest coffee that
+          our planet produces. Whether it’s a steaming mug of straight up
+          cappuccino, a tumbler of flavoursome Indian filter kaapi, or a tall
+          glass of vanilla matcha latte - we’ve got the blend that puts the
+          zing in your step and the life in your day!
+          <br /><br />
+          WakeCup with us!
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      Copyright &copy; WakeCup
+      <div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+  </div>
+
+    </div>
+    <div class="mainpage">
+      <div class="source">
+        <h1>Learn with us</h1>
+      </div>
+      <div class="learnimage"><img src="images/LearnWithUsHeader.jpg" alt="Learn with us"></div>
+      <div class="learnheadline">The world is so much better when we share. That is why, right from inception,
+        we’ve been on a mission to turn you into a professional grade barista. Our experts conduct
+        workshops where we share our knowledge and insights with you on a regular basis. Check
+        out our ongoing workshops and join us today.
+      </div>
+      <div class="wrkshop">
+        <h1>Current Workshops</h1>
+        <div class="wrkheading">
+          <h2>The Home Barista</h2>
+          <p>Can’t travel to our workshop? Learn from the comfort of your home by joining our
+            innovative Home Barista workshops. When you sign up, you get your own coffee
+            appreciation kit which you’ll use along with the workshop.</p>
+          <span>Duration : 4 hours | $250 | </span><button>SignUp</button>
+        </div>
+        <div class="wrkheading">
+          <h2>The Champion Series</h2>
+          <p>Conducted once every year, our Champion series is a serious coffee aficionado’s dream
+            come true. Enthusiasts from across the country gather at our Seattle facility for 3 days of
+            intense brewing to get ready for the Bean King Champion contest held at Montreal every
+            year. This is not to be missed. And we’ve got the awards to prove it.</p>
+          <span>Duration : 3 days on-site | $2000 | </span><button>SignUp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    Copyright &copy; WakeCup
+    <div>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+  </div>
+
+    </div>
+    <div class="mainpage">
+      <div class="source">
+        <h1>Our Cafes</h1>
+      </div>
+      <div class="cafeimage">
+        <img src="images/ourcafebanner.jpeg" alt="Our Cafes" />
+      </div>
+      <div class="flexcontainer">
+        <div class="card">
+          <h1>ADDRESS</h1>
+          <div class="addr">
+            <h3>
+              1st and Pike <br />
+              Seattle
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <h1>ADDRESS</h1>
+          <div class="addr">
+            <h3>
+              Metro Market <br />
+              Milwaukee
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <h1>ADDRESS</h1>
+          <div class="addr">
+            <h3>
+              Williamsport <br />
+              Pennsylvania
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright &copy; WakeCup
+      <div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+  </div>
+
+    </div>
+    <div class="mainpage">
+      <div class="source">
+        <h1>The Source</h1>
+      </div>
+      <div class="image">
+        <img src="images/5-Coffee-beans.jpeg" alt="Source Banner" />
+      </div>
+      <div class="lines">
+        <p>
+          Our commitment to you is that we source our coffee beans from the
+          finest estates and plantations from around the world. Our team
+          visits these plantations to assess and determine the quality of
+          coffee before it makes it to our shortlist. Which is why we have a
+          really short list, because to us, only the best matter. We also
+          ensure the farms we work with are free from slave labour and any
+          other malpractice and are ecologically responsible and follow
+          ethical practices.
+        </p>
+      </div>
+      <div class="box">
+        <div class="src1">
+          <h2>Lima Gold Coffee Plantations, Ethiopia</h2>
+          <p>
+            We came across Lima Gold Plantations by chance during our visit to
+            Ethiopia in 2018. Ever since then, we’ve been mesmerized by the
+            blends from this amazing estate. And your love for unique blends
+            from this plantation makes our association strong.
+          </p>
+        </div>
+        <div class="src2">
+          <h2>Attaca Estate, Brazil</h2>
+          <p>
+            This popular estate was the subject of intrigue after a number of
+            UFO videos emerged from the region in 2008. We’re sure the UFOs
+            were there for the amazing Arabica that they cultivate over there.
+            And we agree. Attaca produces some of the finest coffee and we’ve
+            got them all to prove our point.
+          </p>
+        </div>
+        <div class="src3">
+          <h2>Vardha Plantations, India</h2>
+          <p>
+            Our coffee hunt in South India sprung up a surprise in 2019 when
+            we came across Mr. Rajamani Vardha who’s great grandfather
+            established Vardha Plantations in Karnataka, India in the late
+            1800s on orders of a British general who wanted great coffee. More
+            than a century later, Vardha Plantations still produce their
+            uniquely amazing blend that has come to be a crowd favourite with
+            us.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright &copy; WakeCup
+      <div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+  </div>
+
+
+
+    
+    </div>
+    <div class="mainpage">
+      <div class="source">
+        <h1>Coffee Blends</h1>
+      </div>
+      <div class="coffeeblend">
+        <img src="images/uniqueblendbanner.jpg" alt="Unique Blends" />
+      </div>
+      <div class="blendheader">
+        <div class="source">
+          <h1>Unique Blends</h1>
+        </div>
+        WakeCup takes pride in the estates and plantations that we work with.
+        From the day of our inception, it has been our endeavour to reach out
+        to the finest plantations from across the planet to bring you the
+        finest blends. To that end, we source our beans from ecologically
+        sustainable and responsible estates from around the world. Our
+        collection is thus small but once you’ve tried our unique blends,
+        you’ll never go back.
+      </div>
+      <div class="uniquecontainer">
+        <div class="unique">
+          <div class="uncard">
+            <img src="images/UniqueBlends/WakeCup_Arabica.jpg" alt="WakeCup Arabica" />
+            <h3>WakeCup Arabica</h3>
+            <p>
+              Sourced from Lima Gold Coffee Plantations in Ethiopia, this
+              Arabica has grapefruit and cashew flavours and is a medium
+              roast. One of our bestsellers. <br /><br />
+              Available in 400gms packaging only.
+            </p>
+            <div class="unbtn">
+              <button>BUY</button><span>| $ 10.20</span>
+            </div>
+          </div>
+        </div>
+        <div class="unique">
+          <div class="uncard">
+            <img src="images/UniqueBlends/Robusta.jpg" alt="WakeCup Robusta" />
+            <h3>WakeCup Robusta</h3>
+            <p>
+              This is a blend of two types of beans that we source from Attaca
+              Estate in Brazil and is bound to wake up your creativity. A
+              strong blend, this is new in our collection. <br /><br />
+              Available in 400gms packaging only.
+            </p>
+            <div class="unbtn">
+              <button>BUY</button><span>| $ 12.20</span>
+            </div>
+          </div>
+        </div>
+        <div class="unique">
+          <div class="uncard">
+            <img src="images/UniqueBlends/NuttyBrazil.jpg" alt="WakeCup Nutty Brazil" />
+            <h3>WakeCup Nutty Brazil</h3>
+            <p>
+              This is a blend of two types of beans that we source from Attaca
+              Estate in Brazil and is bound to wake up your creativity. A
+              strong blend, this is new in our collection. <br /><br />
+              Available in 400gms packaging only.
+            </p>
+            <div class="unbtn">
+              <button>BUY</button><span>| $ 12.20</span>
+            </div>
+          </div>
+        </div>
+        <div class="unique">
+          <div class="uncard">
+            <img src="images/UniqueBlends/EthiopianGrand.jpg" alt="WakeCup Ethiopian Grand" />
+            <h3>WakeCup Ethiopian Grand</h3>
+            <p>
+              This light blend with fruity flavours is also sourced from the
+              Lima Gold plantations in Ethiopia and is a gentle yet fun cuppa,
+              especially on a cold winter morning. <br /><br />
+              Available in 400gms packaging only.
+            </p>
+            <div class="unbtn"><button>BUY</button><span>| $ 9.20</span></div>
+          </div>
+        </div>
+        <div class="unique">
+          <div class="uncard">
+            <img src="images/UniqueBlends/KLEstate.jpg" alt="WakeCup KL Estate" />
+            <h3>WakeCup KL Estate</h3>
+            <p>
+              The KL Estate blend comes from the Vardha Plantations in India
+              and is a medium blend with hints of orange, caramel and nuts.
+              One of our best sellers.
+            </p>
+            <div class="unbtn">
+              <button>BUY</button><span>| $ 14.20</span>
+            </div>
+          </div>
+        </div>
+        <div class="unique">
+          <div class="uncard">
+            <img src="images/UniqueBlends/The1980Blend.jpg" alt="WakeCup The 1980 Blend" />
+            <h3>WakeCup The 1980 Blend</h3>
+            <p>
+              The 1980 is close to our heart. It is when WakeCup was first
+              imagined, only to be realized more than two decades later. This
+              unique blend comes from the Attaca Estate in Brazil and is pure
+              joy with raisin and hazelnut hints in every cup.
+            </p>
+            <div class="unbtn">
+              <button>BUY</button><span>| $ 12.20</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright &copy; WakeCup
+      <div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
